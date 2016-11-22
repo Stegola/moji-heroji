@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<%= image_tag @hero.avatar.url(:original), :width => "100px" %> <br>
+
+
+<p>
+  <strong>Name:</strong>
+  <%= @hero.name %>
+</p>
+
+<p>
+  <strong>Rasa:</strong>
+  <%= @hero.rasa %>
+</p>
+
+<p>
+  <strong>Damage:</strong>
+  <%= @hero.damage %>
+</p>
+
+<p>
+  <strong>Health:</strong>
+  <%= @hero.health %>
+</p>
+
+<p>
+  <strong>Mana:</strong>
+  <%= @hero.mana %>
+</p>
+
+<p>
+  <strong>Power:</strong>
+  <%= @hero.power %>
+</p>
+
+<%= link_to 'Edit', edit_hero_path(@hero) %> |
+<%= link_to 'Back', heros_path %>

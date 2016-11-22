@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  rasa: MyString
+  damage: 
+  health: 
+  mana: 
+  power: 
+
+two:
+  name: MyString
+  rasa: MyString
+  damage: 
+  health: 
+  mana: 
+  power: 

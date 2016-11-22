@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @spell.title %>
+</p>
+
+<p>
+  <strong>Mana cost:</strong>
+  <%= @spell.mana_cost %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @spell.description %>
+</p>
+
+<p>
+  <strong>Damage:</strong>
+  <%= @spell.damage %>
+</p>
+
+<p>
+  <strong>Heal:</strong>
+  <%= @spell.heal %>
+</p>
+
+<%= link_to 'Edit', edit_spell_path(@spell) %> |
+<%= link_to 'Back', spells_path %>

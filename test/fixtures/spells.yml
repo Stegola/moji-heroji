@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  mana_cost: 1
+  description: MyText
+  damage: 1
+  heal: 1
+
+two:
+  title: MyString
+  mana_cost: 1
+  description: MyText
+  damage: 1
+  heal: 1
